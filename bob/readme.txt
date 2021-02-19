@@ -1,1 +1,4 @@
-Exercice donné pendant le stage, pour expérimenter les premières bases.
+Exercice donné pendant la formation, création d'un site statique.
+
+Html5
+CSS3
