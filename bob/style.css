@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+    margin: 0;
+    font-size: 15px;
+}
+#container{
+    background-color: #fff;
+    max-width: 1024px;
+    margin: auto;
+    
+/*
+    margin: 16px; haut&droite&bas&gauche
+    margin: 8px 0; haut&bas, gauche&droite 
+    margin: 8px 4px 0; haut, gauche&droite, bas 
+    margin: 8px 6px 4px 0; haut, droite, bas, gauche 
+*/
+}
+
+header{
+    padding-top: 1px;/* hack CSS des marges débordantes */
+}
+footer{
+    padding: 1px 0;/* hack CSS des marges débordantes */
+}
+
+header img{
+    width: 100%;
+    vertical-align: bottom;/* hack CSS de la baseline des images */
+}
+
+main{
+    padding: 1em;
+}
+
+main section{
+    display: flex;/* fait s'aligner son contenu DIRECT (enfants de premier niveau)*/
+    align-items: flex-start;/* annuler l'étirement vertical des éléments flexés */
+    /*padding: 1.5em 0.5em;*/
+}
+main nav{ flex: 2; }
+main article{ flex: 7; }
+main aside{ flex: 3; }
+
+nav {
+    padding: 1em;
+}
+
+nav{
+    border-bottom: dashed;
+}
+    
+nav a{
+    padding: 2em;
+    color: inherit;
+    text-decoration: none;
+}
+
+aside img{
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+.block-blue{
+    background-color: #88a4f0;
+    color: #fff;
+}
+.center-text{
+    text-align: center;
+}
+
+footer{
+    background-color: #4e66a8;
+    color: #fff;
+}
+
+#image{
+    flex: 1;
+}
+
+main div #image{
+    width: 100%;
+}

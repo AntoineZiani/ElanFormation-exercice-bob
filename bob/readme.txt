@@ -1,0 +1,1 @@
+Exercice donné pendant le stage, pour expérimenter les premières bases.
